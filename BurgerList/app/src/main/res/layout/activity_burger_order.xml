@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Burger Type"/>
+    <RadioGroup
+        android:id="@+id/rG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radio_chicken"
+            android:checked="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chicken"/>
+        <RadioButton
+            android:id="@+id/radio_beef"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beef"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add-Ons"
+        />
+    <CheckBox
+        android:id="@+id/Bacon"
+        android:text="Bacon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckedBox"/>
+    <CheckBox
+        android:id="@+id/Pineapple"
+        android:text="Pineapple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckedBox"/>
+    <CheckBox
+        android:id="@+id/Lettuce"
+        android:text="Lettuce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckedBox"/>
+    <CheckBox
+        android:id="@+id/Pickles"
+        android:text="Pickles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckedBox"/>
+    <CheckBox
+        android:id="@+id/Cheese"
+        android:text="Cheese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckedBox"/>
+    <CheckBox
+        android:id="@+id/Mustard"
+        android:text="Mustard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckedBox"/>
+    <EditText
+        android:id="@+id/name"
+        android:hint="Name: "
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/number"
+        android:hint="Phone Number: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address: "
+        android:inputType="textCapWords" />
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_action_cart"
+        />
+
+    <EditText
+        android:visibility="invisible"
+        android:id="@+id/burgerType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address: "
+        android:inputType="textCapWords" />
+    <EditText
+        android:visibility="invisible"
+        android:id="@+id/Add-Ons1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords" />
+    <EditText
+        android:visibility="invisible"
+        android:id="@+id/Add-Ons2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords" />
+    <EditText
+        android:visibility="invisible"
+        android:id="@+id/Add-Ons3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords" />
+    <EditText
+        android:visibility="invisible"
+        android:id="@+id/Add-Ons4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords" />
+    <EditText
+        android:visibility="invisible"
+        android:id="@+id/Add-Ons5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords" />
+
+
+</LinearLayout>
